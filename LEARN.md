@@ -4,7 +4,9 @@ We will do the whole thing in Hardhat. So you know the drill, you have to set up
 
 ## Writing the contract:
 We will rely on Openzeppelin's implementation of the ERC721 standard, so you will need to run this command:
+
 ``` npm install @openzeppelin/contracts ```
+
 This will add Openzeppelin's contracts to your node modules, go and take a look. Now, ... Now what? Oh yes, the contract. create a _contracts_ directory, cd into it, create an _ImportantPeople.sol_. We will be creating NFTs that hold names of famous people:
 
 ```js
